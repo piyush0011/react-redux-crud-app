@@ -1,0 +1,99 @@
+.img {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.about-prod {
+  height: 56px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  font-size: 13px;
+  color: #696969;
+  margin-top: 10px;
+}
+.image-title-disc {
+  display: inline-block;
+  width: 160px;
+  overflow-x: hidden;
+}
+.prod-image {
+  position: relative;
+  height: 142px;
+  overflow-y: hidden;
+}
+.image-title-disc p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.image-disc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(66, 66, 66, 0) 0%,
+    rgba(65, 67, 68, 1) 0%,
+    rgba(124, 163, 125, 0) 0%,
+    rgba(105, 105, 105, 1) 100%
+  );
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.image-disc p {
+  margin-bottom: 0;
+}
+.products-info {
+  display: inline-block;
+}
+.products-info p {
+  margin: 0;
+}
+.products-info span {
+  font-size: 12px;
+  color: #7d7d7d;
+}
+.link {
+  color: #4d3a7c;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.hover-box:hover .on-hover {
+  display: block;
+}
+.on-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+}
+.on-hover a {
+  padding: 8px 10px;
+  background: #fff;
+  color: #000;
+  display: block;
+  width: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.cent {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

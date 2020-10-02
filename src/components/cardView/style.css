@@ -1,0 +1,22 @@
+.trending-proj {
+    width: 130px;
+    height: 130px;
+    border: 0;
+}
+.image-title-disc p.card-title-desc {
+    font-size: 16px;
+    font-weight: 700;
+}
+.image-title-disc p.card-title-by {
+    font-size: 10px;
+}
+.image-title-disc p.card-title-aprt {
+    font-size: 12px;
+}
+.image-title-disc p.card-title-add {
+    font-size: 12px;
+}
+.image-title-disc p.card-title-price {
+    font-size: 16px;
+    font-weight: 700;
+}
